@@ -1,3 +1,21 @@
+Info:
+A lot of code in this repo is not important for the current functioning of the project - which is 
+simply a crawler.
+
+The non-required code is there because I was initially planning to make a client for github.
+
+Build instructions:
+1. Clone the repo.
+2. Run `npm install` by cd-ing in the downloaded directory.
+3. Edit the config.js file as needed (enough comments have been added there).
+4. Run the crawler by going to the {project_root}/mining/crawler directory, and executing `node master-crawler.js`
+
+One must have installed node.js runtime, npm and mongodb for using the crawler.
+MongoDB connection details can be edited through the config file. Ensure that MongoDB server is running before 
+running the crawler.
+
+-------------------------------------------------------------------------------
+
 The project is called Github-Baby-Client, but that was how it was supposed to work. Now it does not act 
 as a client for github.
 
