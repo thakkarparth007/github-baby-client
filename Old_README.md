@@ -1,6 +1,6 @@
 # github-baby-client
 A baby project that acts as a github client
-
+ 
 ##Request-Response Cycle (Middleware chain)
 ---
 
